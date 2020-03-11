@@ -1,3 +1,0 @@
-things to get rid of/clean up:
-
-class="popup-img"
