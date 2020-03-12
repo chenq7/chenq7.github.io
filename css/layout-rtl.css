@@ -342,7 +342,6 @@ fieldset[disabled] .btn-theme {
   border: none;
   padding: 0;
   margin: 35px 0;
-  margin-right: 10px;
 }
 
 .header .navbar-toggle .toggle-icon {
@@ -525,7 +524,7 @@ fieldset[disabled] .btn-theme {
   /* Menu Container */
   .header .menu-container {
     padding-right: 15px;
-    padding-left: 15px;
+    padding-left: 25px;
     margin-right: 0;
     margin-left: 0;
   }

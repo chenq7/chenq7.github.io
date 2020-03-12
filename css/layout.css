@@ -757,7 +757,7 @@ fieldset[disabled] .btn-theme {
   /* Menu Container */
   .header .menu-container {
     padding-left: 15px;
-    padding-right: 15px;
+    padding-right: 25px;
     margin-left: 0;
     margin-right: 0;
   }
