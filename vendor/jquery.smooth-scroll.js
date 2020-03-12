@@ -1,10 +1,4 @@
-// SmoothScroll for websites v1.2.1
-// Licensed under the terms of the MIT license.
-// https://gist.github.com/galambalazs/6477177/
 
-// People involved
-//  - Balazs Galambosi (maintainer)  
-//  - Michael Herf     (Pulse Algorithm)
  
 (function(){
   
