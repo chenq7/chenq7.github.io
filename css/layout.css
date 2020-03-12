@@ -291,25 +291,8 @@ fieldset[disabled] .btn-theme {
 ------------------------------------------------------------------*/
 .social-icons {
   display: inline-block;
-  width: 40px;
-  height: 40px;
-  font-size: 16px;
-  color: #fff;
   text-align: center;
-  border-radius: 50%;
   vertical-align: middle;
-  padding: 11px;
-  transition-duration: 300ms;
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
-}
-
-.social-icons:hover {
-  color: #515769;
-  background: #fff;
-  transition-duration: 300ms;
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
 }
 
 /*------------------------------------------------------------------
@@ -848,7 +831,7 @@ fieldset[disabled] .btn-theme {
   line-height: 3;
   letter-spacing: 1px;
   text-transform: uppercase;
-  background: #515769;
+  background: #00b4d9;
   border-radius: 3px;
   visibility: hidden;
   opacity: 0;

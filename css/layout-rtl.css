@@ -578,7 +578,7 @@ fieldset[disabled] .btn-theme {
   line-height: 3;
   letter-spacing: 1px;
   text-transform: uppercase;
-  background: #515769;
+  background: #00b4d9;
   border-radius: 3px;
   visibility: hidden;
   opacity: 0;
@@ -605,6 +605,7 @@ fieldset[disabled] .btn-theme {
 /* The Button Becomes Visible */
 .back-to-top.back-to-top-is-visible {
   visibility: visible;
+  background: #00b4d9;
   opacity: .6;
   -webkit-transform: translate3d(0, 0, 0);
   -moz-transform: translate3d(0, 0, 0);
