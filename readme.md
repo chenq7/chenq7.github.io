@@ -9,3 +9,4 @@ Technologies Used
 * CSS3
 * Bootstrap
 * Javascript
+* JQuery (plugin)
