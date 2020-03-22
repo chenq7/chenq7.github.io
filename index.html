@@ -26,7 +26,7 @@
         <link href="css/responsive.css" rel="stylesheet">
         
         <!-- Favicon -->
-        <link rel="shortcut icon" href="favicon.ico"/>
+        <link rel="shortcut icon" href=""/>
     </head>
     <!-- END HEAD -->
 
@@ -61,8 +61,8 @@
                             <ul class="nav navbar-nav navbar-nav-right">
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#body">Home</a></li>
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#about">About</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href= "#experience">Education</a></li>
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#work">Projects</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href= "#experience">Education</a></li>
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#contact">Contact</a></li>
                             </ul>
                         </div>
@@ -126,7 +126,9 @@
                                 user friendly
                                 applications. I like to use programming as an outlet to let my creative ideas come to fruition.
                             </p>
-                            <a href="./img/Qixiang_Chen_Resume.pdf" target="_blank" class="resume-btn">My Resume</a>
+                            <div class="resume-container">
+                                <a href="./img/Qixiang_Chen_Resume.pdf" target="_blank" class="resume-btn">My Resume</a>
+                            </div>
                         </div>
         
                     </div>
@@ -212,6 +214,127 @@
             </div>
         </section>
 
+        <!-- Work -->
+        <div id="work" class="section-padding">
+            <!-- Container Starts -->
+            <div class="container">
+                <h2 class="section-title wow flipInX" data-wow-delay="0.4s">
+                    My Projects
+                </h2>
+                <div class="row">
+                    <div class="col-md-12">
+            
+                    </div>
+            
+                    <!-- Portfolio Recent Projects -->
+                    <div id="portfolio" class="row wow fadeInDown" data-wow-delay="0.4s">
+            
+                        <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development design" style="padding: 10px;">
+                            <div class="portfolio-item">
+                                <div class="shot-item">
+                                    <img src="img/projects/video-night.png" alt="" />
+                                    <div class="overlay">
+                                        <div class="icons">
+                                            <a class="lightbox preview" href="https://videonight.herokuapp.com/" target="_blank">
+                                                <i class="icon-eye"></i>
+                                            </a>
+                                            <a class="link" href="https://github.com/chenq7/VideoNight" target="_blank">
+                                                <i class="icon-link"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio-description">
+                                <h2 class="portfolio-description-title">Video Night</h2>
+                                <p class="portfolio-description-paragraph">
+                                    VideoNight is a video-sharing platform inspired by Youtube that allows users to upload and share videos that other users
+                                    can view, like, and comment on.
+                                </p>
+                                <span class="portfolio-description-technology">Technology Used</span>
+                                <ul class="portfolio-description-list">
+                                    <li>Backend - PostgreSQL, Ruby on Rails</li>
+                                    <li>Frontend - React, Redux</li>
+                                    <li>Cloud Platforms - AWS, Heroku</li>
+                                </ul>
+                            </div>
+                            <div class="portfolio-buttons">
+                                <a class="portfolio-button" href="https://videonight.herokuapp.com/" target="_blank">Live</a>
+                                <a class="portfolio-button" href="https://github.com/chenq7/VideoNight" target="_blank">Repo</a>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development" style="padding: 10px;">
+                            <div class="portfolio-item">
+                                <div class="shot-item">
+                                    <img src="img/projects/minion-wars.png" alt="" />
+                                    <div class="overlay">
+                                        <div class="icons">
+                                            <a class="lightbox preview" href="https://minion-wars.herokuapp.com/" target="_blank">
+                                                <i class="icon-eye"></i>
+                                            </a>
+                                            <a class="link" href="https://github.com/chenq7/MinionWars" target="_blank">
+                                                <i class="icon-link"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio-description">
+                                <h2 class="portfolio-description-title">Minion Wars</h2>
+                                <p class="portfolio-description-paragraph">
+                                    Minion Wars is a MERN stack project game that is centered around collecting, selling, and battling digital tokens called
+                                    minions. Users are able to create an account, buy minions with gold, and use their army of minions to attack other
+                                    players.
+                                </p>
+                                <span class="portfolio-description-technology">Technology Used</span>
+                                <ul class="portfolio-description-list">
+                                    <li>MongoDB, Express, React, Node.js</li>
+                                </ul>
+                            </div>
+                            <div class="portfolio-buttons">
+                                <a class="portfolio-button" href="https://minion-wars.herokuapp.com/" target="_blank">Live</a>
+                                <a class="portfolio-button" href="https://github.com/chenq7/MinionWars  " target="_blank">Repo</a>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix print design" style="padding: 10px;">
+                            <div class="portfolio-item">
+                                <div class="shot-item">
+                                    <img src="img/projects/coin-explorer.png" alt="" />
+                                    <div class="overlay">
+                                        <div class="icons">
+                                            <a class="lightbox preview" href="https://chenq7.github.io/CoinExplorer/" target="_blank">
+                                                <i class="icon-eye"></i>
+                                            </a>
+                                            <a class="link" href="https://github.com/chenq7/CoinExplorer" target="_blank">
+                                                <i class="icon-link"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio-description">
+                                <h2 class="portfolio-description-title">Coin Explorer</h2>
+                                <p class="portfolio-description-paragraph">
+                                    Coin Explorer is a level based platform game where you get to play as a slime to collect all the coins to move on
+                                    to the next level. The game will be over upon dying to obstacles (spikes, monsters, etc) and you can restart
+                                    at the current level. 
+                                </p>
+                                <span class="portfolio-description-technology">Technology Used</span>
+                                <ul class="portfolio-description-list">
+                                    <li>JavaScript, CanvasHTML</li>
+                                </ul>
+                            </div>
+                            <div class="portfolio-buttons">
+                                <a class="portfolio-button" href="https://chenq7.github.io/CoinExplorer/" target="_blank">Live</a>
+                                <a class="portfolio-button" href="https://github.com/chenq7/CoinExplorer" target="_blank">Repo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Work -->
+        
         <!-- Experience -->
         <div id="experience" class="section-padding">
             <div class="container">
@@ -288,78 +411,6 @@
         </div>
         <!-- End Experience -->
 
-        <!-- Work -->
-        <div id="work" class="section-padding">
-            <!-- Container Starts -->
-            <div class="container">
-                <h2 class="section-title wow flipInX" data-wow-delay="0.4s">
-                    My Projects
-                </h2>
-                <div class="row">
-                    <div class="col-md-12">
-            
-                    </div>
-            
-                    <!-- Portfolio Recent Projects -->
-                    <div id="portfolio" class="row wow fadeInDown" data-wow-delay="0.4s">
-            
-                        <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development design" style="padding: 10px;">
-                            <div class="portfolio-item">
-                                <div class="shot-item">
-                                    <img src="img/projects/video-night.png" alt="" />
-                                    <div class="overlay">
-                                        <div class="icons">
-                                            <a class="lightbox preview" href="https://videonight.herokuapp.com/" target="_blank">
-                                                <i class="icon-eye"></i>
-                                            </a>
-                                            <a class="link" href="https://github.com/chenq7/VideoNight" target="_blank">
-                                                <i class="icon-link"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development" style="padding: 10px;">
-                            <div class="portfolio-item">
-                                <div class="shot-item">
-                                    <img src="img/projects/minion-wars.png" alt="" />
-                                    <div class="overlay">
-                                        <div class="icons">
-                                            <a class="lightbox preview" href="https://minion-wars.herokuapp.com/" target="_blank">
-                                                <i class="icon-eye"></i>
-                                            </a>
-                                            <a class="link" href="https://github.com/chenq7/MinionWars" target="_blank">
-                                                <i class="icon-link"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix print design" style="padding: 10px;">
-                            <div class="portfolio-item">
-                                <div class="shot-item">
-                                    <img src="img/projects/coin-explorer.png" alt="" />
-                                    <div class="overlay">
-                                        <div class="icons">
-                                            <a class="lightbox preview" href="https://chenq7.github.io/CoinExplorer/" target="_blank">
-                                                <i class="icon-eye"></i>
-                                            </a>
-                                            <a class="link" href="https://github.com/chenq7/CoinExplorer" target="_blank">
-                                                <i class="icon-link"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End Work -->
-            
         <!-- Contact -->
         <div id="contact">
             <div class="bg-color-sky-light">

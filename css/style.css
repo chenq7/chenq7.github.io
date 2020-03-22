@@ -59,12 +59,18 @@
 }
 
 #about .about-descr .separator {
-  max-width: 80%;
+  max-width: 90%;
   text-align: left;
   margin: 25px 0;
   line-height: 28px;
   color: #999999;
   padding: 0;
+}
+
+.resume-container {
+  max-width: 90%;
+  display: flex;
+  justify-content: center;
 }
 
 .resume-btn {
@@ -101,7 +107,6 @@
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  justify-content: space-around;
   margin-right: -15px;
   margin-left: -15px;
 }
@@ -111,6 +116,8 @@
   flex-direction: column;
   align-items: center;
   margin: 10px 20px;
+  height: 85px;
+  width: 85px;
 }
 
 .skill-icon {
@@ -354,4 +361,46 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 
 .social-icon li {
   display: inline-block;
+}
+
+.portfolio-description {
+  margin-top: 20px;
+}
+
+.portfolio-description-title {
+  text-align: center;
+}
+
+.portfolio-description-paragraph {
+  margin-left: 10px;
+  color: #515769;
+}
+
+.portfolio-description-technology {
+  margin-left: 10px;
+  color: #515769;
+}
+
+.portfolio-description-list {
+  margin-left: 10px;
+}
+
+.portfolio-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio-button {
+  background-color: #00b4d9;
+  color: white;
+  height: 2.75em;
+  line-height: 2.75em;
+  letter-spacing: 0.125em;
+  padding: 0 2em;
+  font-size: 0.9em;
+  font-weight: 400;
+  border-radius: 4px;
+  text-indent: 0.125em;
+  text-transform: uppercase;
+  margin: 10px;
 }

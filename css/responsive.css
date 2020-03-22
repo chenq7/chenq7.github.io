@@ -80,6 +80,9 @@
   .timeline li:first-child i {
     margin: -12px -40px;
   }
+  .resume-container {
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 767px) {
@@ -117,6 +120,9 @@
   }
   .portfolio-item {
     margin-left: 15px;
+  }
+  .resume-container {
+    max-width: 100%;
   }
 }
 
@@ -235,9 +241,9 @@
 }
 
 #experience {
-  background: #f7f7f7;
+  background: #F0F0F0;
 }
 
 #work {
-  background: #F0F0F0;
+  background: #f7f7f7;
 }
