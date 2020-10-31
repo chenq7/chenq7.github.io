@@ -20,6 +20,10 @@
   .container2 {
     max-width: 1140px;
   }
+  .portfolio-description {
+    margin-top: 20px;
+    max-width: 95%;
+  }
 }
 
 @media (max-width: 1199px){
@@ -28,6 +32,10 @@
   }
   .timeline li:first-child i {
     margin: -12px -40px;
+  }
+  .portfolio-description {
+    margin-top: 20px;
+    max-width: 85%;
   }
 }
 
