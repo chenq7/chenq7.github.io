@@ -285,6 +285,13 @@
   color: #fff;
 }
 
+.overlay .single-link {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  color: #fff;
+}
+
 .shot-item:hover .overlay {
   opacity: 1;
 }
